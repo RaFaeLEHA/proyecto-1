@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Yusei+Magic&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  background-color: #212a3e;
+  color: #d6cfc2;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+header {
+  background-color: #394867;
+  color: #d6cfc2;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 0;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section ul {
+  display: flex;
+}
+
+section ul li {
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  background-color: #394867;
+  color: #d6cfc2;
+  font-size: 14px;
+  padding: 20px;
+}
+
+img {
+  max-width: 14rem;
+  border-radius: 45%;
+  border: 2px solid rgb(23, 12, 73);
+  box-shadow: 0 0 10px rgb(182, 173, 162);
+}
+
+[class^="fa-"] {
+  font-size: 2em;
+}
+
+.estilo-1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 1.5em;
+}
+
+button {
+  background-color: #9BA4B5;
+  color: #212A3E;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6cfc2;
+  color: #2A2F4F;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 768px)
+ {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav ul {
+    margin-top: 2px;
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    margin: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h2, li a {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  img {
+    max-width: 13rem;
+    border-radius: 50%;
+    border: 2px solid rgb(23, 12, 73);
+    box-shadow: 0 0 10px rgb(182, 173, 162);
+  }
+
+  section ul {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+  }
+}
